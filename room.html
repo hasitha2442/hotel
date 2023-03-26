@@ -1,0 +1,94 @@
+
+
+
+<html>
+<head>
+    <title>Hotel Booking</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>  
+    <style type="text/css">
+        body{ 
+            font-family: sans-serif;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #444;
+            background:url(room.jpg);
+            background-size: cover;
+        }
+        .wrapper{
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+        h1{
+            text-align: center;
+            font-size: 2rem;
+            font-family: sans-serif;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        .form-group{
+            margin-bottom: 15px;
+        }
+        label{
+            font-size: 1.3rem;
+            font-weight: bold;
+            display: block;
+        }
+        input[type="text"],
+        input[type="date"],
+        select{
+            width: 100%;
+            font-size: 1.2rem;
+            padding: 10px;
+            border-radius: 2px;
+            border: 1px solid #e3e3e3;
+        }
+        button{
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #444;
+            border: none;
+            padding: 10px;
+            border-radius: 2px;
+            width: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body> 
+    <div class="wrapper">
+        <h1>Hotel Booking</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="form-group">
+                <label for="room">Room Type</label>
+                <select name="room" id="room">
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="family">Family Room</option>
+                </select>
+            </div>
+            <button onclick="os()">Submit</button>
+        </form>
+    </div>
+    <script>
+
+    function os() {
+        Swal.fire({
+            icon: 'success',
+            title: 'Booked Succesfully!!',
+        })
+    }
+
+</script>
+</body>
+</html>

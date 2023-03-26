@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.contact
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 50px 100px;
+	flex-direction: column;
+	background: url(../bg.jpg);
+	background-size: cover;
+}
+.contact .content
+{
+	max-width: 800px;
+	text-align: center;
+}
+
+.contact .content h2
+{
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+}
+.contact .content p
+{
+	font-weight: 500;
+	color: #fff;
+}
+.container
+{
+	width: 100%;
+	display: left;
+	justify-content: center;
+	align-items: left;
+	margin-top: 30px;
+
+}
+.container .contactInfo
+{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+
+}
+.container .contactInfo .box
+{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.container .contactInfo .box .icon
+{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+
+
+}
+.container .contactInfo .box .text
+{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+}
+.container1
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -280px;
+	padding-left: 1000px;
+	
+
+}
+.container1 .contactInfo1
+{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+
+}
+.container1 .contactInfo1 .box1
+{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.container1 .contactInfo1 .box1 .icon1
+{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+
+
+}
+.container1 .contactInfo1 .box1 .text1
+{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+}
